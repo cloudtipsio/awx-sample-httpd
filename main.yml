@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  user: gcp
+  user: awx-ansible@cloudtips.iam.gserviceaccount.com
   become: yes
   tasks:
     - name: Install apache packages 
